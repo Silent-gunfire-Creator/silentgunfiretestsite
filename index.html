@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silent Gunfire - Official Site</title>
+  <link rel="icon" type="image/png" href="https://i.ibb.co/W4LYsWxg/Silent-Gunfire-project-for-advertizement.png"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Home Section -->
+  <section id="homeSection">
+    <div class="title-banner">
+      <div class="cropped-image"></div>
+      <div class="title-text">
+        <h1>Silent Gunfire</h1>
+        <h3>Coming Soon!</h3>
+      </div>
+    </div>
+    <button id="goToTrailer">Watch Trailer</button>
+    <button id="goToCreators">Meet the Creators!</button>
+    <button id="goToOfficalart">Official Art!</button>
+  </section>
+
+  <!-- Trailer Section -->
+  <section id="trailerSection" style="display: none;">
+    <h2>Official Trailer</h2>
+    <p>Coming soon!</p>
+    <br/>
+    <button class="backHome">← Back to Home</button>
+  </section>
+
+  <!-- Creators Section -->
+  <section id="creatorsSection" style="display: none;">
+    <h2>Meet the Creators</h2>
+    <p>Hi! More info coming soon!</p>
+    <div id="disqus_thread"></div>
+    <br/>
+    <button class="backHome">← Back to Home</button>
+  </section>
+
+  <!-- Official Art Section -->
+  <section id="officalartsection" style="display: none;">
+    <h2>Official Art</h2>
+    <div class="gallery">
+      <a href="#secretPageSection"><img src="https://i.ibb.co/W4LYsWxg/Silent-Gunfire-project-for-advertizement.png" class="art-image" alt="Art 1"/></a>
+      <a href="#secretPageSection"><img src="https://i.ibb.co/NdzVp9KP/drawomg.png" class="art-image" alt="Art 2"/></a>
+    </div>
+    <br/>
+    <button class="backHome">← Back to Home</button>
+  </section>
+
+  <!-- Secret Page -->
+  <section id="secretPageSection" style="display: none;">
+    <h1>Hello! you found a secret! </h1>
+    </p> for more information please stay updated and check back!</p>
+    <button class="backHome">← Back to Home</button>
+  </section>
+
+  <script src="script.js"></script>
+  <script id="dsq-count-scr" src="//silentgunfire-com.disqus.com/count.js" async></script>
+  <script>
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://silentgunfire-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+</body>
+</html>
